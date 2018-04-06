@@ -60,6 +60,8 @@ class Song
     artist = arr[1]
     artist = artist.scan(/[^[.][m][p][3]]/)
     
-    
+    s = self.new_by_name(name)
+    s.artist = artist
+    s
   end
 end
