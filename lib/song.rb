@@ -70,4 +70,9 @@ class Song
     s.save
     s
   end    
+  
+  def destroy_all
+    arr = self.all
+    arr.clear
+  end
 end
