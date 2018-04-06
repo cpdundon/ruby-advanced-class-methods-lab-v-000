@@ -61,7 +61,7 @@ class Song
     artist = artist.scan(/[^[.][m][p][3]]/)
     
     s = self.new_by_name(name)
-    s.artist = artist
+    s.artist_name = artist
     s
   end
 end
