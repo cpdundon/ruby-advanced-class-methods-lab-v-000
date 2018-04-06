@@ -57,7 +57,7 @@ class Song
   def self.new_from_filename(file_name)
     puts file_name
     arr = file_name.split(" - ")
-    name = arr[1].scan(//)
+    name = arr[1].scan(/.*[^[[.][m][p][3]]]/)
     artist = arr[0]
     puts name
     
