@@ -53,4 +53,8 @@ class Song
     s = songs.sort_by{|x| x.name}
     s
   end
+  
+  def self.new_from_filename(file_name)
+    
+  end
 end
