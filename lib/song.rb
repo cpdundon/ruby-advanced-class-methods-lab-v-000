@@ -58,6 +58,8 @@ class Song
     arr = file_name.split(" - ")
     name = arr[0]
     artist = arr[1]
-    artist = artist.scan(//)
+    artist = artist.scan(/[^[.][m][p][3]]/)
+    
+    
   end
 end
