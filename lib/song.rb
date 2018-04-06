@@ -71,7 +71,7 @@ class Song
     s
   end    
   
-  def destroy_all
+  def selfdestroy_all
     arr = self.all
     arr.clear
   end
